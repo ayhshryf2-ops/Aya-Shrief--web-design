@@ -1,0 +1,277 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing:border-box;   
+}
+.clear{
+     clear: both;
+}
+
+nav{
+    background-color: #F5F7FA;
+}
+.bg-light{
+     background-color: #F5F7FA;
+}
+.bar{
+     float:left;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left: 60px;
+    text-align: center;
+
+
+}
+.container{
+    /* background-color: rgb(199, 51, 51); */
+    width:90%;
+    margin:auto;
+}
+ 
+ul{
+     list-style:none;
+     color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+   font-family: "Arial Narrow", Arial, sans-serif;
+   float: left;
+   text-align: center;
+
+
+}
+
+a{
+text-decoration: none;
+ color: black;
+}
+
+.nav1{
+   float:left;
+    padding:1%;
+    font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+.buttons{
+ float: right;
+ padding:1%;
+}
+.login{
+    color: #4CAF4F;
+    border: none;
+    padding: 7px;
+     border-radius: 15%;
+}
+.signup{
+    color: #F5F7FA;
+    background-color: #4CAF4F;
+    border: none;
+    padding: 7px;
+    border-radius: 15%;
+}
+.d{
+    color: #4D4D4D;
+    font-weight: bold;
+    display: block;padding-top: 20%;
+    margin-left: 10%;
+    font-size: 70px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    display: block;
+    float: left;
+}
+.g{
+    color: #4CAF4F;
+    font-size: 60px;
+    display: block;
+}
+.l{
+    color: #717171;
+    display: block;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: block;
+    font-size: 20px;
+}
+.Register {
+    color: #F5F7FA;
+    background-color: #4CAF4F;
+    border: none;
+    border-radius: 8%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.LearnMore{color: #F5F7FA;
+    background-color: #4CAF4F;
+    border: none;
+    border-radius: 8%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    display: block;
+    margin-top: 20px;
+    clear: left;
+   
+}
+.sheet{
+    background-color: #F5F7FA;
+    float:left ;
+    margin: 50%;
+    font-size: 55px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+}
+.details{
+   float: left;
+    font-family: "Arial Narrow", Arial, sans-serif;
+width: 50%;
+}
+.para{
+    float: right;
+    margin:2%;
+    margin-top: 5%;
+    width: 35%;
+}
+
+.g,.l,.b,.Register{
+     margin-left: 9%;
+     font-family: "Arial Narrow", Arial, sans-serif;
+     display: block;
+
+}
+
+.l{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: block;
+
+}
+.dot{
+   
+    width: 30px;
+    display: block;
+    margin: 15px auto;
+}
+
+.part2{
+    background-color:white;
+    box-sizing:content-box;
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+
+}
+
+.OC ,.M{
+    color:  #4D4D4D;
+     font-size: 30px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 3%;
+}
+.plus-500 ,.W{
+     font-size: 15px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    color: #717171;
+    margin-top:1%;
+}
+.M{
+   color:  #4D4D4D;
+     font-size: 30px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 1%; 
+}
+.i{
+  color:  #4D4D4D;
+     font-size: 30px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-weight: bold;
+}
+.part4 .icona,
+.part4 .iconb,
+.part4 .iconc {
+float: left;
+    width: 30%;
+    margin-right: 3%;
+    text-align: center;
+    padding: 10px;
+
+
+}
+.part3 {
+   background-color:white;
+    box-sizing:content-box;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.part4 .iconc{
+    margin-right: 0;
+}
+.aicon ,.bicon,.cicon{
+    color:  #4D4D4D;
+     font-size: 25px;
+      font-family: "Arial Narrow", Arial, sans-serif;
+    font-weight: bold;
+     margin: auto;
+    width: 30%;
+}
+    .da, .db, .dc{
+        font-size: 15px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    color: #717171;
+    margin-top:1%;
+    Display: block;
+    Float: left; 
+    }
+    .part5
+    {
+    background-color:white;
+    box-sizing:border-box; 
+    float: left;
+     text-align: left;
+     padding: 3%;
+    }
+    .rafiki
+    {
+       float: left; 
+        background-color:white;
+        width: 50%;
+    }
+    .Unlockh{
+       color:  #4D4D4D;
+     font-size: 50px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-weight: bold;
+    display: block;
+    margin-top: 3%;
+    width: 50%;
+    float: left;
+    }
+    .Unlockd{
+     font-size: 20px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    color: #717171;
+    margin-top: 1%;
+    width: 50%;
+    float: left;
+    }
+    .hd{
+        display: block;
+        float:right;
+    }
+
+    .part6{
+        background-color:white;
+        box-sizing:border-box; 
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+

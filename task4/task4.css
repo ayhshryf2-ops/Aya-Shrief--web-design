@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.con{
+    width: 90%;
+   margin: auto;
+   margin-top: 1%;
+   
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.fs{
+    font-size: 408%;
+}
+
+.fc{
+    color: rgba(42, 42, 42, 1);
+}
+
+.fw{
+    font-weight:150;
+}
+.ta{
+    text-align: center;
+}
+
+.bu{
+    background-color: rgba(40, 94, 103, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 12px 60px;
+    border-radius: 20px;
+    border: none;
+    align-items: center;
+    display: flex;
+     display: block;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.m{
+    margin: 20px auto;
+}
+
+.mp{
+   margin-top: 112px; 
+}
+.img-center{
+    display: block;
+    margin: 20px auto;
+}
+.fg{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.gb{
+    background-color: rgba(244, 244, 244, 1);
+
+}
+.w{
+    width: 258px;
+}
+.flex-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.font-2{
+    font-size: 50px;
+}
+ .p{
+   padding: 0 60px;
+}
+.greenb{
+    background-color: rgba(40, 94, 103, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.of{
+    display: flex;
+}
+.col{
+    color: rgba(255, 255, 255, 1) ;
+}
