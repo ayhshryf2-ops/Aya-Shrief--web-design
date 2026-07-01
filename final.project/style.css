@@ -1,0 +1,57 @@
+.merto-container {
+  padding: 3px 77px;
+}
+
+.merto-logo {
+  margin-right: 135px;
+  text-decoration: none;
+}
+
+.merto-logo img {
+  display: block;
+  width: 135px;
+  height: auto;
+}
+
+.merto-phone {
+  margin-right: 39px;
+}
+
+.merto-search {
+  width: 365px;
+}
+
+.search-category-btn {
+  width: 155px;
+  padding: 16px 14px;
+}
+
+.search-input {
+  min-width: 0;
+  padding-left: 24px;
+}
+
+.search-btn {
+  width: 62px;
+}
+
+.merto-right {
+  margin-left: auto;
+  gap: 24px;
+}
+.bg-gray{
+  background-color: var(ts-hd-search-bg);
+}
+.btn-hover:hover{
+  color: red;
+}
+.img-hover:hover{
+  width: 100%;
+
+}
+.hight{
+  height: 560px;
+}
+.m-carousel {
+  margin-left: 7rem !important;
+}
