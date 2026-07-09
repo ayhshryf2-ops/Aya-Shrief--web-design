@@ -38,12 +38,9 @@
   background-color:  #e6e6e6;;
 }
 .btn-hover:hover{
-  color:red;
+  color:red !important;
 }
-.img-hover:hover{
-  width: 100%;
 
-}
 .hight{
   height: 560px;
 }
@@ -145,11 +142,7 @@
     padding: 20px 10px;
 }
 
-.categories-bar{
-    /* white-space: nowrap; */
-      /* scroll-behavior: smooth; */
-     
-}
+
 
 .category-item{
     flex: 0 0 auto;
@@ -174,9 +167,195 @@
 }
 
 .item-card{
-   transition: all 0.2s ease;
+  border: 1px solid #dee2e6; 
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+    
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 .item-card:hover{
-  /* transform: translateY(-5px); */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border-color: transparent; 
+    z-index: 5; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.icon-btn{
+    width:40px;
+    height:40px;
+    border-radius:25%;
+    background:#d5d5d5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+    cursor:pointer;
+}
+
+.icons{
+    right: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(20px);
+    transition: all .4s ease;
+}
+
+.product-card:hover .icons{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+.des-icon{
+  width: 40px;
+  height: 30px;
+  background-color: #d81010;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+} 
+
+.img-box{
+  overflow: hidden;
+}
+
+.img-zoom:hover {
+  overflow: hidden;
+}
+
+.img-hover {
+  transition: transform 0.5s ease;
+  overflow: hidden;
+}
+
+.img-zoom:hover .img-hover {
+  transform: scale(1.1);
+}
+
+.nav-link{
+  background-color: transparent !important;
+  color: #000 !important;
+  box-shadow: none !important;
+}
+
+.nav-link:hover{
+  text-decoration: underline;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.boys-h{
+ height: 500px;
+ object-fit: cover;
+ background-color: #d5d5d5;
+
+}
+.fs-hoodie{
+  margin-left: 6%;
+  font-size: 12.5rem !important;
+}
+
+.hoodi-hover{
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.hoodi-hover:hover{
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 20%;
+   border-color: #000 !important;
+   
+
+}
+
+.black-btn{
+  transition: 0.3s;
+  border: 1px solid transparent;
+}
+
+.black-btn:hover{
+  background-color: white  !important; 
+  color: black  !important;  
+  border-color: #000  !important; 
+}
+
+
+.bg-lightgray{
+  background-color: #e9e9e9;
+}
+
+.email-input{
+    color: #6c757d !important;
+    width: 100%;
+}
+
+.form-check-input:hover{
+  background-color: #000;
+  
+}
+
+.form-check:hover .form-check-input:checked {
+    background-color: black;
+    
+}
+
+.form-check-input:checked{
+  background-color: black;
+    
+}
+
+.btn-hover:hover .form-check-input {
+    background-color: black;
+    border-color: black;
+}
+
+.filter-btn:hover{
+background-color: #d81010 !important;
+color:white !important;
+}
+
+.email-icon{
+  font-size: 70px;
+  color: #c4c4c4;
+}
+
+.Live-Chat{
+  width: 10px;
+  height: 10px;
+  background-color: #10ec2a;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.green-btn{
+  background-color: #e1ece2;
+  color: #0a9e20;
+}
+
+#scrollIcon {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #212529;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 30px;
+  z-index: 9999;
+}
+
+#scrollIcon.show {
+  opacity: 1;
+  visibility: visible;
 }

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hoodie-Merto</title>
+    <link rel="icon" href="images/logo - Copy.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white p-3  border-bottom ">
+        <div class="container-fluid merto-container d-flex align-items-center ">
+        <!-- Logo -->
+        <a class="merto-logo  navbar-brand p-0  me-4" href="https://demo.theme-sky.com/merto/"><img  src="images/logo.png" alt="logo"></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Phone -->
+            <div class="d-flex align-items-center merto-phone">
+            <i class="bi bi-telephone fs-1 m-3"></i>
+            <div>
+                <h6 class="mb-0">Contact us 24/7</h6>
+                <small>(+92) 3942 7879</small>
+            </div>
+            </div>
+            <!-- Center (Dropdown + Search) -->
+            <form class="merto-search ms-5">
+            <div class="input-group ms-3 bg-gray">
+                <button
+                class="btn dropdown-toggle search-category-btn fw-semibold btn-light border"
+                type="button"
+                data-bs-toggle="dropdown">
+                All Categories
+                </button>
+
+                <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="#">Autopart</a></li>
+                <li><a class="dropdown-item" href="#">Accessories</a></li>
+                <li><a class="dropdown-item" href="#">Car Care</a></li>
+                <li><a class="dropdown-item" href="#">Car Electronics</a></li>
+                <li><a class="dropdown-item" href="#">Equipment</a></li>
+                <li><a class="dropdown-item" href="#">Lights</a></li>
+                <li><a class="dropdown-item" href="#">Oils & Fluids</a></li>
+                <li><a class="dropdown-item" href="#">Tires</a></li>
+                <li><a class="dropdown-item" href="#">Wheels</a></li>
+                <li><a class="dropdown-item" href="#">Beauty & Health</a></li>
+                <li><a class="dropdown-item" href="#">Bags & Cases</a></li>
+                <li><a class="dropdown-item" href="#">BB Creams</a></li>
+                <li><a class="dropdown-item" href="#">Body & Bath</a></li>
+                <li><a class="dropdown-item" href="#">Brushes & Tools</a></li>
+                <li><a class="dropdown-item" href="#">Hair Care</a></li>
+                <li><a class="dropdown-item" href="#">Lipstick</a></li>
+                <li><a class="dropdown-item" href="#">Makeup</a></li>
+                <li><a class="dropdown-item" href="#">Makeup Palettes</a></li>
+                <li><a class="dropdown-item" href="#">Mascara</a></li>
+                <li><a class="dropdown-item" href="#">About us</a></li>
+                </ul>
+
+                <input
+                class="form-control search-input bg-gray "
+                type="search"
+                placeholder="Search for pr"/>
+
+                <button class="btn btn-dark search-btn" type="submit">
+                <i class="fa-solid fa-magnifying-glass fs-5"></i>
+                </button>
+            </div>
+            </form>
+            <!-- Right Side -->
+            <div class="d-flex align-items-center merto-right">
+
+            <!-- Language -->
+            <div class="dropdown">
+                <button class="btn dropdown-toggle border-0 p-0 " type="button" data-bs-toggle="dropdown">
+                <img src="images/usa-flag.svg" width="20" class="me-1" alt="علم امريكا">
+                EN
+                </button>
+
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">English</a></li>
+                <li><a class="dropdown-item" href="#">Arabic</a></li>
+                </ul>
+            </div>
+
+            <!-- Currency -->
+            <div class="dropdown ">
+                <button class="btn dropdown-toggle btn dropdown-toggle border-0 p-0 a" type="button" data-bs-toggle="dropdown">
+                USD
+                </button>
+
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">EUR</a></li>
+                <li><a class="dropdown-item" href="#">BRL</a></li>
+                </ul>
+            </div>
+
+            <!-- Account -->
+            <div class="d-flex align-items-center">
+                <i class="fa-solid fa-user fs-4 me-2"></i>
+                <span class="fw-semibold">Account</span>
+            </div>
+
+            <!-- Icons -->
+        
+                <i class="fa-solid fa-heart fs-4"></i>
+                <i class="fa-solid fa-cart-shopping fs-5 me-5"></i>
+            
+
+            </div>
+
+        </div>
+
+        </div>
+    </nav>
+     <!-- small nav -->
+      <!-- the first -->
+   <div class="d-flex  align-items-center px-5 border-bottom ">
+      <button class="btn  fw-bold  px-4  btn-hover border-end ps-5 small" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+          <i class="fa-solid fa-bars me-2"></i>
+          SHOP BY CATEGORIES
+      </button>
+      <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+          <div class="offcanvas-header bg-black">
+            <h6 class="offcanvas-title text-white "
+              id="offcanvasWithBothOptionsLabel">
+              <i class="fa-solid fa-bars me-2"></i>
+              SHOP BY CATEGORIES
+                </h6>
+              <button type="button"class="btn-close btn-close-white"" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body p-0">
+            <!-- fashion -->
+            <div class="d-flex justify-content-between align-items-center border-bottom p-3">
+              <div>
+                  <i class="fa-solid fa-shirt"></i>
+                  <a class="fs-5 menu-item p-3 text-decoration-none text-dark" href="">Fashion</a>
+                    
+              </div>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+      </div>
+          <div class="row align-items-center ps-5">
+            <div class="dropdown col-auto">
+              <button class="btn  bg-tranperant btn-hover dropdown-toggle fw-bold border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Homepages
+                <i class="fa-solid fa-angle-down ms-1"></i>
+              </button>
+              <div class="dropdown-menu pages-dropdown">
+                <div class="row ">
+                  <div class="col-3">
+                    <img class="img-fluid" src="images/mega-home-1.jpg">
+                  </div>
+
+                  <div class="col-3">
+                    <img class="img-fluid" src="images/mega-home-2.jpg">
+                  </div>
+
+                  <div class="col-3">
+                    <img class="img-fluid" src="images/mega-home-3.jpg">
+                  </div>
+
+                  <div class="col-3">
+                    <img class="img-fluid" src="images/mega-home-4.jpg">
+                  </div>
+                </div>
+
+                <div class="row mt-3 justify-content-center gx-4">
+                  <div class="col-3">
+                      <img class="img-fluid" src="images/mega-home-5.jpg">
+                  </div>
+
+                  <div class="col-3">
+                      <img class="img-fluid" src="images/mega-home-6.jpg">
+                  </div>
+               </div>
+              </div>
+
+               
+              
+            </div>
+
+            <div class="col-auto px-3 btn-hover small ">
+              <span class="fw-bold">Categories</span>
+              <i class="fa-solid fa-angle-down ms-1"></i>
+            </div>
+
+            <div class="col-auto px-3 btn-hover small">
+              <span class="fw-bold">Products</span>
+              <i class="fa-solid fa-angle-down ms-1"></i>
+            </div>
+
+            <div class="col-auto px-3 btn-hover small">
+              <span class="fw-bold">Pages</span>
+              <i class="fa-solid fa-angle-down ms-1"></i>
+            </div>
+
+            <div class="col-auto px-3 btn-hover small">
+              <span class="fw-bold">About Us</span>
+            </div>
+
+            <div class="col-auto px-3 btn-hover small">
+              <span class="fw-bold">Blog</span>
+            </div>
+
+            <div class="col-auto px-3 btn-hover small">
+              <i class="fa-solid fa-money-bill-wave"></i>
+              <span class="fw-bold">Best Discount</span>
+            </div>
+          </div>
+            <!-- Recently viewed -->
+              <div class="ps-3 btn-hover small ms-auto">
+                <span class="fw-bold">Recently viewed </span>
+                <i class="fa-solid fa-angle-down ms-2"></i>
+              </div>
+   </div>
+
+    <section class=" container">
+        <div class="">
+             <!-- btn -->
+            <div class=" my-4">
+                        <button class="btn  bg-tranperant btn-hover dropdown-toggle text-black border-0 ms-0 ps-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Home
+                          <i class="fa-solid fa-angle-right  opacity-50 small"></i>
+                        </button>
+                        <button class="btn  bg-tranperant btn-hover dropdown-toggle text-black border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Shope
+                          <i class="fa-solid fa-angle-right  opacity-50 small"></i>
+                        </button>
+                        <button class="btn  bg-tranperant btn-hover dropdown-toggle text-black border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Fashion
+                          <i class="fa-solid fa-angle-right  opacity-50 small"></i>
+                        </button>
+                        <button class="btn  bg-tranperant btn-hover dropdown-toggle text-black border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Men
+                          <i class="fa-solid fa-angle-right  opacity-50 small"></i>
+                        </button>
+                        <button class="btn  bg-tranperant btn-hover dropdown-toggle text-black border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Accessories 
+                          <i class="fa-solid fa-angle-right  opacity-50 small"></i>
+                        </button>
+                        <button class="btn  bg-tranperant btn-hover dropdown-toggle text-secondary border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Athletices Emroidered Relaxed Hoodie
+                          <i class="fa-solid fa-angle-right opacity-50 small"></i>
+                        </button>
+            </div>            
+        </div>
+
+        <div class="row">
+                <div class=" col-md-1 me-0 d-flex flex-column gap-2">
+                    <img class=" rounded-2 borded  black-btn w-75 shadow-sm " src="images/s-l960 (1).png">
+                    <img class=" rounded-2 borded  black-btn  w-75  shadow-sm" src="images/s-l960 - Copy.png">
+                    <img class=" rounded-2 borded  black-btn  w-75  shadow-sm" src="images/s-l960 (2) - Copy.png">
+                    <img class=" rounded-2 borded  black-btn  w-75  shadow-sm" src="images/s-l960 (3) - Copy.png">
+                </div>
+                <div class="col-md-6 ms-0 d-flex flex-column position-relative ">
+                    <img class=" border rounded-1 shadow-sm " src="images/s-l960 (1) - Copy.webp">
+                    <div class="position-absolute top-0 end-1 des-icon mt-3 ms-3 ">
+                        <span class="">-35%</span>
+                    </div>
+                </div>
+                <div class="col-md-5 ms-0 d-flex flex-column position-relative">
+                <h6 class="text-secondary">Amazom</h6>
+                <h2 class="text-black fw-bold">Athletices Emroidered Relaxed Hoodie</h2>
+                <div class="text-warning text-dark">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="text-secondary fs-6 ms-3">4.67</span>
+                    <span class="text-secondary fs-6 ms-2">(3 Reviews)</span>
+                    <span class="text-secondary fs-6 ms-2 text-decoration-underline btn-hover "> write a review</span>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <span class="fs-1 fw-bold">$86</span>
+                    <span class="text-secondary text-decoration-line-through fs-3 ms-1">$120</span>
+                    <span class="text-danger fw-bold ms-3">(Save $31)</span>
+                </div>
+                <div class="mt-2">
+                    <span class="green-btn py-1 px-3 fw-bold rounded-2"> In Stock</span>
+                </div>
+                <div class=" mt-4">
+                    <span class="fw-bold">Color: <span class="text-secondary">Navy</span></span>
+                    <div class="row d-flex mb-4">
+                        <div class="col-md-3 me-0 d-flex  gap-2 mt-3">
+                            <img class=" rounded-2 borded  black-btn w-75 shadow-sm " src="images/s-l960 (1).png">
+                            <img class=" rounded-2 borded  black-btn    shadow-sm" src="images/s-l960 - Copy.png">
+                            <img class=" rounded-2 borded  black-btn   shadow-sm" src="images/s-l960 (2) - Copy.png">
+                            <img class=" rounded-2 borded  black-btn   shadow-sm" src="images/s-l960 (3) - Copy.png">
+                        </div>
+                    </div>
+                    <span class="text-danger fw-bold ">clear</span>
+                    <div class=" d-flex gap-2 mt-4">
+                        <button class="border-1 p-2 rounded-2 px-4 fs-6 black-btn">
+                           <span class="me-3 fs-6">-</span>
+                           <span class=" mx-1 me-3">1</span>
+                           <span class="fs-6">+</span>
+                        </button>
+                         <button class="border-1 p-2 rounded-2 px-4 fs-6  bg-black text-white fw-bold">
+                           +Add To Cart
+                        </button>
+                        <button class="border-0 p-2 rounded-2 px-4 fs-6  bg-danger text-white fw-bold">
+                           BUY NAW
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<a href="#" id="scrollIcon">
+  ↑
+</a>
+
+</body>
+
+</html>
